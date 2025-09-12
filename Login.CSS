@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  max-width: 100%;
+  font-weight: 300;
+  font-style: normal;
+  background-image: url(gambar/backgroundTetap.png);
+  background-size: cover;
+}
+
+body a {
+  color: white;
+}
+
+.box {
+  width: 450px;
+  background: linear-gradient(to bottom, #0a2b6c, #412a7a);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+   
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  background: #0b3f91;
+  padding: 15px;
+  border-bottom: 2px solid #fff;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 50px;
+}
+
+.tabs a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.tabs a.active {
+  border-bottom: 2px solid white;
+}
+
+.form {
+  padding: 30px;
+  color: #fff;
+  padding: 150px;
+}
+
+.form label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+.form .forgot {
+  color: red;
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+.form button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  background: #ccc;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #aaa;
+}
